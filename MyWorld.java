@@ -3,12 +3,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class MyWorld here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Mehul Tailang
+ * @version 1.0
  */
 public class MyWorld extends World
 {
-
+    int w = getWidth();
+    int h = getHeight();
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -17,5 +18,7 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        Centipede centipede = new Centipede();
+        addObject(centipede, 10, 20);
     }
 }

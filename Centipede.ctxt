@@ -2,7 +2,11 @@
 comment0.target=Centipede
 comment0.text=\n\ Write\ a\ description\ of\ class\ Centipede\ here.\n\ \n\ @author\ Mehul\ Tailang\ \n\ @version\ 1.0\n
 comment1.params=
-comment1.target=void\ act()
+comment1.target=Centipede()
 comment2.params=
-comment2.target=void\ move()
-numComments=3
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=boolean\ hittingMushroom()
+numComments=5
